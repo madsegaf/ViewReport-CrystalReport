@@ -137,6 +137,7 @@ Public Class Form1
         Catch ex As System.Exception
             MsgBox(ex.Message)
         End Try
+        Return True
     End Function
 
 End Class
